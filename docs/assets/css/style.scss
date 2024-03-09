@@ -1,0 +1,129 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+html {
+    background: #ffffff;
+    height: auto;
+}
+
+header {
+    background: none;
+    border-bottom: 0px;
+    padding-bottom: 17px;
+}
+
+header p {
+    color: #000000;
+    width: 380px;
+}
+
+header ul:before {
+    background: #f6639b47;
+    box-shadow: none;
+    left: -5px;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+}
+
+header ul li {
+    width: 200px;
+    border-right: 0px solid #ffffff24;
+}
+
+header ul li+li {
+    border-left: none;
+}
+
+header ul {
+    background: #f6639b;
+    border: 0px;
+    box-shadow: none;;
+}
+
+header ul a {
+    text-shadow: none;
+    color: #ffffff;
+}
+
+header ul a strong {
+    color: #ffffff;
+}
+
+header h1 {
+    color: #000000d9;
+    text-shadow: none;
+    border-left: 4px solid #f6639b;
+    padding-left: 10px;
+}
+
+section {
+    padding: 60px 70px 60px 70px;
+    background: transparent;
+    border-top: 0px solid #ececec;
+    border-bottom: 0px solid #ececec;
+    border-radius: 0;
+}
+
+.wrapper {
+    background: #ffffff;
+    width: 824px;
+    box-shadow: none;
+    border: 3px solid #ececec;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000d9;
+}
+
+p:nth-child(1) {
+    padding-bottom: 28px;
+}
+
+img:nth-child(1) {
+    margin-left: -4px;
+    max-width: none;
+}
+
+footer a, a {
+    color: #f6639b;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+body {
+    color: #1a1a1a;
+    background-image: radial-gradient(#efe9e9 1px, transparent 2px);
+    background-size: 19px 19px;
+    padding: 50px 0px 50px 0px;
+    text-shadow: 0 0 #0000009e;
+}
+
+p, strong {
+    color: #262626;
+}
+
+code, pre {
+    color: #fff;
+    background: #f6639b;
+    padding: 3px 6px 3px 6px;
+    border-radius: 2px;
+}
+
+.github-fork-ribbon:before {
+    background-color: #262626 !important;
+    background-image: none !important;
+    -webkit-box-shadow: 0 0.15em 0em 0 #00000030 !important;
+    box-shadow: 0 0.15em 0em 0 #00000030 !important;
+}
+
+::selection {
+    color: white;
+    background: #f6639b;
+}
+
+footer {
+    padding: 23px 0px 0px 0px;
+}
